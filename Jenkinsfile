@@ -16,7 +16,7 @@ pipeline {
      
     stage('android') {
         steps {
-           sh 'npm install'
+          // sh 'npm install'
           sh 'react-native run-android'
         }
     }
